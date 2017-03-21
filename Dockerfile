@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:edge
 ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
